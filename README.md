@@ -1,5 +1,7 @@
 # compare Garmin activities with gpxpy
 
+![](https://raw.githubusercontent.com/gerritnowald/Garmin_analysis/main/cycling_map.png)
+
 Compare arbitrarily many gps-based activities  
 - overall stats (time, distance, pace/speed, heart rate, cadence)
 - plots over distance: pace/speed, heart rate, cadence, elevation profile
@@ -21,6 +23,12 @@ The data is written into pandas dataframes.
 
 Different activities are synchronized s.t. their elevation profiles match.  
 This way, activities on the same route with different starting points (e.g. due to gps inaccuracies) can be compared.
+
+Several routes can also be plotted in an interactive map in `cycling_map.ipynb`.
+
+See also these blog posts:  
+- https://gerritnowald.wordpress.com/2024/02/08/analyzing-gpx-files-from-garmin/  
+- https://gerritnowald.wordpress.com/2024/10/10/visualizing-my-cycling-year/
 
 ## usage
 
