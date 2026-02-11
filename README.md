@@ -1,4 +1,4 @@
-# compare Garmin activities with gpxpy
+# Analysis of Garmin activities with gpxpy
 
 ![](https://raw.githubusercontent.com/gerritnowald/Garmin_analysis/main/cycling_map.png)
 
